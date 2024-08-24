@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.divLogo {
+    height: 200px;
+    width: 100vw;
+    background-color: rgb(36, 59, 54);
+    background-image: url('../pontosrecife/assets/images/image.png');
+    background-repeat: no-repeat;
+    background-size: 50vw 200px;
+    background-position: center top;
+    clip-path: inset(0 0 40% 0);
+    /* Mantém os 30% superiores */
+    display: flex;
+}
+
+.title h1 {
+    padding: 30px 0 0 60px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 3em;
+    background: linear-gradient(to right, #ff7e5f, #feb47b, #86a8e7, #91eae4);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    text-shadow: #86a8e7;
+    
+}
+
+.pontostur{
+    height: 400px;
+    width: 300px;
+    background: linear-gradient(#86a8e7, #91eae4);
+    border-radius: 20px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+}
+
+.pontostur ul li{
+    list-style-type: none;
+    font-size: 30px;
+    margin-top: 14px;
+
+}
+
+.pontostur ul li a{
+    text-decoration: underline;
+    color: aliceblue;
+}
+
+main{
+    padding: 0 60px;
+}

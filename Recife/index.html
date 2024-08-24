@@ -4,43 +4,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Marco Zero</title>
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        .divLogo {
-            height: 200px;
-            width: 100vw;
-            background-color: rgb(36, 59, 54);
-            background-image: url('./assets/images/image.png');
-            background-repeat: no-repeat;
-            background-size: 50vw 200px;
-            background-position: center top;
-            clip-path: inset(0 0 40% 0);
-            /* Mantém os 30% superiores */
-            display: flex;
-        }
-
-        .title h1 {
-            padding: 30px 0 0 100px;
-            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-            font-weight: bold;
-            font-size: 3em;
-            /* Aumentado para melhor legibilidade */
-            background: linear-gradient(to right, #ff7e5f, #feb47b, #86a8e7, #91eae4);
-            -webkit-background-clip: text;
-            background-clip: text;
-            color: transparent;
-            text-shadow: #86a8e7;
-        }
-    </style>
+    <title>Turismo Recife</title>
+    <link rel="stylesheet" href="./style.css">
+    
 </head>
 
-<body>
+<body style="background-color: rgba(255, 228, 196, 0.541);">
     <header>
         <div class="divLogo">
             <div class="title">
@@ -50,37 +19,15 @@
     </header>
 
     <main>
-        <h2>
-            Marco Zero - Recife - PE
-        </h2>
-
-        <p> O Marco Zero, na Praça Rio Branco, é conhecido como local de fundação da cidade do Recife e também como
-            ponto
-            inicial de contagem das distâncias calculadas a partir da cidade.
-        </p>
-        <br> <br>
-        <section>
-            <img src="./assets/images/recMZ.png" alt="">
-            <span>Marco zero é o nome que se dá ao local de fundação de uma cidade</span>
-
-            <br><br>
-            <img src="./assets/images/mcz.png" alt="">
-            <span>Praça do Marco Zero</span>
-
-
+        <section class="pontostur">
+            <ul>
+                <li><a href="../pontosrecife/marcozero.html">Marco Zero</a></li>
+                <li><a href="../pontosrecife/praias.html">Praias</a></li>
+                <li><a href="../pontosrecife/historico.html">Histórico</a></li>
+            </ul>
         </section>
+
     </main>
-
-    <br><br>
-
-    <footer>
-        <center>
-            <h3>
-                Conheça o site oficial - <a href="hhttps://visit.recife.br/o-que-fazer/atracoes/parques-e-pracas/praca-do-marco-zero">Praça do Marco Zero</a>
-            </h3>
-        </center>
-    </footer>
-    <br><br>
 </body>
 
 </html>
